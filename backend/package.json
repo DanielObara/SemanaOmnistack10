@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.js"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -16,6 +16,8 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
   }
 }
