@@ -4,6 +4,14 @@ const SearchController = require('./controller/SearchController');
 
 const routes = Router();
 
+// Métodos HTTP: GET, POST, PUT, DELETE
+
+// Tipos de parâmetros:
+
+// Query Params: request.query (Filtros, ordenação, paginação, ...)
+// Route Params: request.params (Identificar um recurso na alteração ou remoção)
+// Body: request.body (Dados para criação ou alteração de um registro)
+
 routes.post('/devs', DevController.store);
 routes.post('/devs/:id', DevController.update);
 routes.get('/devs', DevController.index);
